@@ -1,5 +1,5 @@
 // Given an unsorted array, sort using bubble sort
-// Time complexity O(n2)
+// Time complexity O(n^2)
 
 function bubbleSort(arr) {
     if(!arr.length) {
