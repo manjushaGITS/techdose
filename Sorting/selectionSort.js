@@ -1,9 +1,9 @@
 // selection sort
 // Time Complexity O(n ^ 2)
-// Select i=0 ele as  min ele, compare with rest of elems in arr
-// whenever finds min ele, set  min ele = curr ele
-// replace i=0 ele with min ele
-// repeat by setting i+1 ele as min ele and so on
+// Select i=0 ele as  min Index, compare with rest of elems in arr
+// whenever finds min ele, set  min Index = curr Index
+// replace i=0 ele with min Index ele
+// repeat by setting above i+1 min Index and so on
 
 function selectionSort(arr) {
     for(let i=0; i<arr.length; i++)  {
